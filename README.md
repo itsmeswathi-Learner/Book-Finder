@@ -8,6 +8,7 @@ Clean component architecture,
 API integration with error handling, 
 Responsive UI with Tailwind CSS, 
 Real-world data handling (deduplication, fallbacks, formatting)
+
 ✨ Features
 
 🔍 Search by Title — Instantly find books using Open Library’s vast database
@@ -69,25 +70,7 @@ npm install
 npm run dev
 ➡️ Open http://localhost:3000 — your app is running!
 
-📂 Project Structure
 
-
-📁 book-finder/
-├── public/
-│   └── index.html              # App entry point
-├── src/
-│   ├── App.jsx                 # Main app logic + search
-│   ├── main.jsx                # React render root
-│   ├── index.css               # Tailwind directives
-│   └── components/
-│       ├── BookCard.jsx        # Individual book UI
-│       ├── BookList.jsx        # Grid layout
-│       ├── SearchBar.jsx       # Input + button
-│       └── Spinner.jsx         # Loading animation
-├── package.json
-├── vite.config.js              # Vite config (port 3000, auto-open)
-├── tailwind.config.js          # Tailwind content paths
-└── postcss.config.js           # PostCSS for Tailwind
 🌐 API Used
 🔗 Open Library Search API
 https://openlibrary.org/search.json?title={query}
